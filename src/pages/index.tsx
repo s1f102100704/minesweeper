@@ -395,6 +395,7 @@ const Home = () => {
   const clicked = (usermap: number[][], x: number, y: number) => {
     usermap[y][x] = 1;
   };
+  //test
   //周りに爆弾があるかの判定
   const makeNum = (
     usermap: number[][],
