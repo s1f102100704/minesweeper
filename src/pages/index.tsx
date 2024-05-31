@@ -2,6 +2,7 @@ import styles from './index.module.css';
 import { useState } from 'react';
 import { useEffect } from 'react';
 import React from 'react';
+
 const Home = () => {
   const [mineSweeperConfig, setMinsweeperConfig] = useState({
     level: 'easy',
